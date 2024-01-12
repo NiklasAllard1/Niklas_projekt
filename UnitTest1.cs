@@ -21,7 +21,7 @@ namespace PersonnummerKontroll.Tests
         public void Verifiera_OgiltigtPersonnummer_ReturnerarFalse()
         {
             // Given
-            string personnummer = "9003994855";
+            string personnummer = "8808214855";
 
             // When
             bool result = PersonnummerVerifiera.Verifiera(personnummer);
