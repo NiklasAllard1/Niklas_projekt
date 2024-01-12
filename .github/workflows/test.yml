@@ -3,7 +3,7 @@ name: Run unit test on merge publish Docker image
 
 
 on:
-  merge:
+  push:
     branches:
       - main
 
